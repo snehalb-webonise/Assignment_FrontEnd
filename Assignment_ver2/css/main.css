@@ -1,0 +1,271 @@
+body
+{
+  margin: 0;
+  font-size: 13px;
+  font-family:georgia ;
+}
+
+.header
+{
+  height: 80px;
+  padding-top: 10px;
+}
+
+.navbarDefault{
+  background-color:#3355aa;
+  height:40px;
+  /*padding-top: 5px;*/
+}
+.navMenu{
+  padding-top: 10px;
+}
+
+.navItem a{
+  font-size: 15px;
+  font-style: italic;
+  color:#FFFFFF;
+  border-left: 1px solid #484848;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.navItem4 a{
+  font-size: 15px;
+  font-style: italic;
+  color:#FFFFFF;
+  border-left: 1px solid #484848;
+  border-right : 1px solid #484848;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.searchText input{
+	margin-top:5px;
+    border-radius: 8px;
+    border-color: transparent;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-style: italic;
+    color: #3355aa;
+    margin-right: 5px;
+}
+
+.searchText button{
+   margin-top:5px;
+   border-radius: 8px;
+   height: 30px;
+   width: 45px;
+   background: #0b7dda;
+   border: transparent;
+   margin-left: 5px;
+   color: #FFFFFF;
+
+}
+
+.content-container{
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-bottom: 45px;
+}
+
+.content-container p{
+    font-size: 14px;
+    font-style: italic;
+    font-family: georgia;
+}
+
+.text-header{
+  font-size: 16px;
+  color: #3355aa;
+  font-family: georgia;
+}
+
+.bannerImage{
+	width: 100%;
+	padding: 10px;
+}
+
+.moveImage{
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+.caption{
+	font-size: 14px;
+	font-style: italic;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.moveText{
+	padding-top: 40px;
+}
+.textHeader{
+  font-size: 16px;
+  color: #3355aa;
+  font-family: georgia;
+  border-bottom: solid ;
+  border-color:  #FFD700;
+}
+
+.textDesc{
+	padding-top: 10px;
+  font-style: bold;
+  font-size: 13px;
+  font-family: georgia;
+  padding-bottom: 60px;
+}
+
+.announcent{
+	padding-top: 10px;
+	margin-bottom: -10px;
+	font-style: italic;
+}
+.announcentText{
+	color: gray;
+	border-bottom: solid 1px lightgray	;
+}
+
+.viewMore{
+	color: #3355aa;
+	font-size: 16px;
+	font-style: italic;
+	padding-top: 5px;
+}
+
+.listItem{
+  list-style-type: none;
+}
+
+.sectorSetting{
+
+  background-color: #eee;
+  padding-bottom: 75px;
+}
+
+.sectorHeader{
+	text-align: center;
+	font-weight: bolder;
+  font-size: 28px;
+  margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.cardTitle{
+  padding-top: 10px;
+  padding-right: 60px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-family: gerogia;
+  font-size: 16px;
+  color: #3355aa;
+  text-align: center;
+  margin-top: 10px;
+  /*padding-bottom: 5px;*/
+
+
+}
+
+
+.grayBox{
+  height:250px;
+  background-color:#DCDCDC;
+  margin:5px;
+}
+
+.footer{
+  background-color: #333333;
+  padding-top: 15px;
+   padding-bottom:35px;
+}
+
+.footerLeft{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.footerRight{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.navFooterLItem1 a{
+  color: #BEBEBE;
+  font-size: 14px;
+  padding-right:10px;
+  /*padding-left: 10px;*/
+  border-right: solid 1px;
+}
+.navFooterLItem2 a{
+  color: #BEBEBE;
+  font-size: 14px;
+  padding-right:10px;
+  padding-left: 10px;
+  border-right: solid 1px;
+}
+.navFooterLItem3 a{
+  color: #BEBEBE;
+  font-size: 14px;
+  padding-right:10px;
+  padding-left: 10px;
+  border-right: solid 1px;
+}
+.navFooterLItem4 a{
+  color: #BEBEBE;
+  font-size: 14px;
+  padding-right:10px;
+  padding-left: 10px;
+  border-right: solid 1px;
+}
+.navFooterLItem5 a{
+  color: #BEBEBE;
+  font-size: 14px;
+  padding-right:10px;
+  padding-left: 10px;
+  /*border-right: solid 1px;*/
+}
+
+.navbarFooterLeft{
+  float:left;
+}
+.navbarFooterRight{
+  float: right;
+}
+.navFooterRItem a{
+  color: #BEBEBE;
+  font-size: 11px;
+  padding-right:10px;
+  padding-left: 10px;
+  border-right: solid 1px;
+}
+
+.navFooterRItem4 a{
+  color: #BEBEBE;
+  font-size: 11px;
+  padding-right:10px;
+  padding-left: 10px;
+  /*border-right: solid 1px;*/
+}
+
+
+
+.footerRow{
+  border-bottom: solid 1px;
+  border-color: #3d3d3d;
+
+}
+
+.microsaveCopyright{
+  padding-top: 10px;
+  color: gray;
+
+}
+
+.navFooterLItem1 .active{
+  color:#FFFFFF;
+}
